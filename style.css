@@ -1,0 +1,221 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.navbar {
+    border-bottom: 2px solid black;
+    position: fixed;
+    display: flex;
+    width: 62rem;
+    padding-right: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.base1 {
+    display: flex;
+    width: 10rem;
+}
+
+.left-logo img {
+    display: inline;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 3rem;
+    margin-top: 0.5rem;
+}
+
+.left-logo {
+    margin: 0 2rem;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 63rem;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+    width: 7rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    margin: 0 3.17rem;
+
+}
+
+.list-items:hover {
+    color: rgb(233, 37, 37);
+}
+
+.search-icon img {
+    height: 2rem;
+    width: 2rem;
+    display: inline;
+    margin-top: 0.5rem;
+
+}
+
+#base1-img {
+    padding-top: 3rem;
+    width: 100%;
+
+}
+
+#base1-img img {
+    width: 63rem;
+}
+
+
+section {
+    width: 62.23rem;
+}
+
+
+
+.base1-img-text {
+    margin-right: 6rem;
+}
+
+.base1-img-text h4 {
+    margin: 0 2rem;
+    font-size: 3rem;
+
+}
+
+.base1-img-text h2 {
+    margin: 12rem 0rem;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    width: 53rem;
+}
+
+.base1-img-text button {
+    margin: 2rem 13rem;
+    padding: 0.5rem 5rem;
+    color: red;
+    background-color: black;
+    border-radius: 2rem;
+}
+
+
+
+.base2-img {
+    display: flex;
+    flex-direction: row;
+    width: 32rem;
+}
+
+.base2-img-text {
+    margin: 3rem;
+    font-size: 1.2rem;
+    width: 30rem;
+}
+
+.base2-img-text h3 {
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    width: 30rem;
+}
+
+.base2-img-text img {
+    width: 30rem;
+}
+
+footer {
+    margin-top: 5rem;
+    width: 62.23rem;
+}
+
+.base3 ul {
+    background-color: rgb(106, 101, 101);
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 62.23rem;
+}
+
+.base3 ul li {
+    margin: 0 3.7rem;
+    padding: 1rem;
+}
+
+.base3 ul li:hover {
+    color: white;
+}
+
+.base4 {
+    background-color: rgba(25, 19, 19, 0.814);
+    height: 15rem;
+    width: 62.23rem;
+}
+
+.base4 img {
+    margin: 10px 35%;
+}
+
+.base4-contact {
+    text-align: center;
+}
+
+.base4-contact button {
+    text-align: center;
+    background: none;
+    padding: 1rem;
+    margin: 1rem;
+    color: white;
+    border: none;
+}
+
+.base4-contact button:hover {
+    border-radius: 1rem;
+    border: .2rem solid black;
+}
+
+/* JavaScript function's Html's css */
+.help-body {
+    margin: 6rem 0rem 0 2rem;
+}
+
+
+#nav {
+    display: flex;
+    width: 63rem;
+}
+
+.help-body h1 {
+    font-size: 3rem;
+}
+
+.help-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    list-style: none;
+}
+
+.help-list li {
+    margin: 2rem;
+    font-size: 1.4rem;
+}
+
+.help-list li:hover {
+    font-weight: bolder;
+}
+
+.search-icon input {
+
+    padding: 6px;
+    border: none;
+    margin-top: 14px;
+    margin-right: 16px;
+    font-size: 17px;
+}
